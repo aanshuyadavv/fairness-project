@@ -48,3 +48,19 @@ The recommendation DataFrame contains:
 ## Notes
 
 Coverage is computed directly from the DataFrame using the number of unique recommended items divided by the total number of items in the dataset.
+
+The total number of items is obtained directly from RecBole. Since RecBole includes a padding item (item 0), the total item count is adjusted using:
+
+1683 - 1 = 1682 items
+
+## Example Coverage Results
+
+### BPR
+
+Coverage: 0.1872
+
+### Pop
+
+Coverage: 0.0059
+
+The BPR model recommends a wider variety of items, while the Pop model mainly recommends the same popular items to most users.
