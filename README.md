@@ -1,5 +1,13 @@
 # Fairness Project
 
+## Notice
+
+This repository contains work that is currently under active development as part of a collaborative research project.
+
+The code is shared for learning and portfolio purposes only. Please do not reuse, redistribute, or include this code in other projects until the project is officially released.
+
+---
+
 This project uses RecBole models on the MovieLens-100K dataset to generate recommendations and compute fairness metrics.
 
 ## Models Used
